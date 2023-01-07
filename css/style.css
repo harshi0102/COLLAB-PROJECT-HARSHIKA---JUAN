@@ -1,6 +1,17 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+.flex_container{
+  display:flex;
+  flex-direction:column;
+}
+
 body {
   font-family: cursive;
   background-color: #eee;
+background-attachment: fixed;
 }
 
 #hero {
@@ -22,6 +33,7 @@ body {
   justify-content: right;
   position:fixed;
 top:0px;
+
 
 
   
@@ -68,16 +80,19 @@ button:hover{
 display:flex;
 flex-direction:column;
   position:fixed;
-  top:0
+  top:0;
 }
-#nav-link {
-  display: inline-block;
+
+#email{
+  width:150px;
 }
 @media  screen and (min-width:600px)and (max-width:800px){
   .flex-container{
-    flex-direction:row;
+    flex-direction:row;  }
+     body{
+      background-color: #eee;
+     }
   }
-}
 nav ul li {
   display: flex;
   padding-right: 40px;
