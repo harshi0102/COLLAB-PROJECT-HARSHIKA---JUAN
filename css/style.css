@@ -21,7 +21,7 @@ body {
   margin-left: 59%;
   justify-content: right;
   position:fixed;
-top:30px;
+top:0px;
 
 
   
@@ -65,18 +65,23 @@ button:hover{
   margin-left:25%;
 }
 #header{
-
+display:flex;
+flex-direction:column;
   position:fixed;
   top:0
 }
 #nav-link {
   display: inline-block;
 }
-
+@media  screen and (min-width:600px)and (max-width:800px){
+  .flex-container{
+    flex-direction:row;
+  }
+}
 nav ul li {
   display: flex;
   padding-right: 40px;
-  margin-top: -40px;
+  
 }
 
 ul {
