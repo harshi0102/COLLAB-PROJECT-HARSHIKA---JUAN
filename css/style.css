@@ -1,43 +1,70 @@
-#nav-bar{
-
-    display:inline-block;
-}
-#nav-link{
-
-display:inline-block;
+body {
+  font-family: cursive;
+  background-color: #eee;
 }
 
-nav ul li{
-    display:inline;
-
-}
-nav ul li a{
-    
-    text-decoration: none;
-    padding:50px 50px;
-    padding-right:40px;
-    font-size:20px;
-    margin-right:-10%;
-
+#hero {
+  margin: auto;
+  text-align: center;
 }
 
-.btn{
-
-    width:100px;
-    height:30px;
-    background-color:bisque;
-    color:black;
-    font-weight:bold;
-    font-family:cursive;
-    cursor:pointer;
-
-
-
+.container-mid {
+  margin: 20%;
+  margin-top: 0;
+  text-align: left;
 }
-body{
-    font-family:cursive;
-    
+
+#nav-bar {
+  display: flex;
+  margin-right: 5%;
+  margin-left: 35%;
+  justify-content: right;
 }
-.btn:hover{
-    background-color:orange;
+#nav-link {
+  display: inline-block;
+}
+
+nav ul li {
+  display: flex;
+  padding-right: 40px;
+  margin-top: -40px;
+}
+
+ul {
+  display: flex;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+
+  font-size: 20px;
+  margin-right: -10%;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background-color: bisque;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: orange;
+}
+
+.container > p {
+  display: flex;
+  justify-content: center;
+
+  background-color: yellow;
+}
+
+input {
+  width: 25%;
+  height: 30px;
+  text-align: left;
 }
