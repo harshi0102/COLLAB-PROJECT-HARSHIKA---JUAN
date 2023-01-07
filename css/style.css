@@ -6,19 +6,68 @@ body {
 #hero {
   margin: auto;
   text-align: center;
+  margin-top:5%;
 }
 
 .container-mid {
   margin: 20%;
-  margin-top: 0;
+  margin-top:0;
   text-align: left;
 }
 
 #nav-bar {
   display: flex;
   margin-right: 5%;
-  margin-left: 35%;
+  margin-left: 59%;
   justify-content: right;
+  position:fixed;
+top:30px;
+
+
+  
+}
+button{
+
+  background-color:orange;
+  width:100px;
+  height:40px;
+  margin-bottom:5%;
+  cursor:pointer;
+}
+button:hover{
+  background-color:aliceblue;
+}
+.card{
+  display:flex;
+  margin-left:10%;
+
+}
+.card1{
+  flex:33%;
+  border-style:solid;
+  text-align:center;
+  margin-right:2%;
+}
+.card2{
+  flex:33%;
+  text-align:center;
+  margin-right:2%;
+  border-style:solid;
+}
+.card3{
+  flex:33%;
+  text-align:center;
+  margin-right:2%;
+  border-style:solid;
+}
+#video{
+  margin-top:-15%;
+  margin-left:25%;
+}
+#header{
+
+  position:fixed;
+  top:0
 }
 #nav-link {
   display: inline-block;
